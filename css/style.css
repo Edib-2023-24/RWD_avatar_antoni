@@ -30,21 +30,28 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: white;
+  background-color: #F1F1F1F1;
 }
 
 img {
 
   height: 300px;
   width: 300px;
-  border-radius: 50%;
+  border-radius: 100%;
 
 }
 
 h1 {
 
   text-align: center;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter';
+  color: #000;
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
 }
 
 h1 span {
@@ -52,5 +59,9 @@ h1 span {
   font-weight: 100;
 
 }
+
+/* Desktop */
+
+@media only screen and (min-width: 501px) and (max-width: 1920px) {}
 
 /* ******************************** */
